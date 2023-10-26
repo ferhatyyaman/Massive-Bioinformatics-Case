@@ -1,0 +1,13 @@
+.container-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.container-error h2 {
+    font-size: 164px; 
+}
+.container-error h1 {
+    font-size: 64px; 
+}

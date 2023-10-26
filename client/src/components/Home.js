@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Home.css';
+import '../styles/Home.css';
 import Button from 'react-bootstrap/Button';
 import { PaginationComponents } from './Pagination';
 import { PageSize } from './PageSize';

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './styles/App.css';
+import  './styles/App.css';
 import { ErrorPage } from './components/Error';
 import { Home } from './components/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -21,6 +21,8 @@ function App() {
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [showModal, setShowModal] = useState(false);
   const [selectedCellData, setSelectedCellData] = useState('');
+  const [myData, setMyData] = useState([]);
+  
 
   
 
@@ -34,6 +36,7 @@ function App() {
         }
         const data = await response.json();
         setData(data.data);
+        setMyData()
         handleFilterAndSort();
       } catch (error) {
         console.error('API isteği sırasında hata oluştu:', error);
@@ -43,7 +46,7 @@ function App() {
       }
     };
     fetchData();
-  }, []);
+  }, [myData]);
 
 
 
