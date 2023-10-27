@@ -5,7 +5,7 @@
 
 
 ### Backend (Flask)
-1. Sanal ortamı (venv) etkinleştirin:
+1. Sanal ortamı (venv) etkinleştirin
 
 ```bash
   source venv/bin/activate  # Linux / macOS
