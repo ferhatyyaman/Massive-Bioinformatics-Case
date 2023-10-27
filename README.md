@@ -5,7 +5,7 @@
 
 
 ### Backend (Flask)
-## 1.Proje dizinine gidin
+#### 1.Proje dizinine gidin
 
 2. Sanal ortamı (venv) etkinleştirin
 
