@@ -2,6 +2,7 @@
 
 
 ![Massive Bioinformatics](https://github.com/ferhatyyaman/Massive-Bioinformatics-Case/assets/66822481/6eafa8d3-1eaf-4458-aab3-675295985cda)
+![Massive Bioinformatics](https://github.com/ferhatyyaman/Massive-Bioinformatics-Case/assets/66822481/ae56ec27-c005-4ed6-a056-36da8d14a35f)
 
 
 ### Backend (Flask)
