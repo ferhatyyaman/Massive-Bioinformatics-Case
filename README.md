@@ -5,17 +5,29 @@
 
 
 ### Backend (Flask)
-1. Sanal ortamı (venv) etkinleştirin
+1.Proje dizinine gidin
+2. Sanal ortamı (venv) etkinleştirin
 
 ```bash
   source venv/bin/activate  # Linux / macOS
   venv\Scripts\activate    # Windows
   ```
-2.Gerekli Python bağımlılıklarını yükleyin
+3.Gerekli Python bağımlılıklarını yükleyin
   ```
   pip install -r requirements.txt
   ```
-3.Flask uygulamanızı çalıştırın:
+4.Flask uygulamanızı çalıştırın:
   ```
   python app.py
+  ```
+
+### Frontend (React)
+1.Proje dizinine gidin
+2.Gerekli bağımlılıkları yükleyin
+ ```
+ npm install
+ ```
+3.React uygulamanızı başlatın
+ ```
+ npm start
   ```
