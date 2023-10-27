@@ -5,7 +5,8 @@
 
 
 ### Backend (Flask)
-1.Proje dizinine gidin
+#1.Proje dizinine gidin
+
 2. Sanal ortamı (venv) etkinleştirin
 
 ```bash
@@ -23,6 +24,7 @@
 
 ### Frontend (React)
 1.Proje dizinine gidin
+
 2.Gerekli bağımlılıkları yükleyin
  ```
  npm install
